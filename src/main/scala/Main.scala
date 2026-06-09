@@ -1,9 +1,10 @@
 //> using scala 3.8.3
-import java.io._
+import java.io.*
 import scala.util.Using
 
 @main def collatz(): Unit =
   val num = scala.io.StdIn.readLine("Choose starting number: ").toInt
+  if num < 1 then println("Input a positive integer")
   val writer = new PrintWriter(new File(s"Collatz${num}.csv"))
   collatzCalculate(num, writer)
   writer.close()
