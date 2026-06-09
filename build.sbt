@@ -4,7 +4,7 @@ lazy val root = project
   .in(file("."))
   .settings(
     name := "collatz",
-    version := "1.0-ALPHA",
+    version := "1.1-ALPHA",
 
     scalaVersion := scala3Version,
 
