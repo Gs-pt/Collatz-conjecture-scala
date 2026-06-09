@@ -4,6 +4,6 @@
 
 Just run:
 
-`$ java -jar collatz-assembly-1.0-ALPHA.jar`
+`$ java -jar collatz-assembly-1.1-ALPHA.jar`
 
 after downloading from the releases.
